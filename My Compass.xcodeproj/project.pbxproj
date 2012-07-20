@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		230C4F3715B9E99E0060BF5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230C4F3615B9E99E0060BF5A /* UIKit.framework */; };
+		230C4F3915B9E99E0060BF5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230C4F3815B9E99E0060BF5A /* Foundation.framework */; };
+		230C4F3B15B9E99E0060BF5A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230C4F3A15B9E99E0060BF5A /* CoreGraphics.framework */; };
+		230C4F4115B9E99E0060BF5A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 230C4F3F15B9E99E0060BF5A /* InfoPlist.strings */; };
+		230C4F4315B9E99E0060BF5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 230C4F4215B9E99E0060BF5A /* main.m */; };
+		230C4F4715B9E99E0060BF5A /* MCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 230C4F4615B9E99E0060BF5A /* MCAppDelegate.m */; };
+		230C4F4A15B9E99E0060BF5A /* MCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 230C4F4915B9E99E0060BF5A /* MCViewController.m */; };
+		230C4F4D15B9E99E0060BF5A /* MCViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 230C4F4B15B9E99E0060BF5A /* MCViewController_iPhone.xib */; };
+		230C4F5015B9E99E0060BF5A /* MCViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 230C4F4E15B9E99E0060BF5A /* MCViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		230C4F3215B9E99E0060BF5A /* My Compass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Compass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		230C4F3615B9E99E0060BF5A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		230C4F3815B9E99E0060BF5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		230C4F3A15B9E99E0060BF5A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		230C4F3E15B9E99E0060BF5A /* My Compass-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "My Compass-Info.plist"; sourceTree = "<group>"; };
+		230C4F4015B9E99E0060BF5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		230C4F4215B9E99E0060BF5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		230C4F4415B9E99E0060BF5A /* My Compass-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "My Compass-Prefix.pch"; sourceTree = "<group>"; };
+		230C4F4515B9E99E0060BF5A /* MCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCAppDelegate.h; sourceTree = "<group>"; };
+		230C4F4615B9E99E0060BF5A /* MCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCAppDelegate.m; sourceTree = "<group>"; };
+		230C4F4815B9E99E0060BF5A /* MCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCViewController.h; sourceTree = "<group>"; };
+		230C4F4915B9E99E0060BF5A /* MCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCViewController.m; sourceTree = "<group>"; };
+		230C4F4C15B9E99E0060BF5A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MCViewController_iPhone.xib; sourceTree = "<group>"; };
+		230C4F4F15B9E99E0060BF5A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MCViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		230C4F2F15B9E99E0060BF5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230C4F3715B9E99E0060BF5A /* UIKit.framework in Frameworks */,
+				230C4F3915B9E99E0060BF5A /* Foundation.framework in Frameworks */,
+				230C4F3B15B9E99E0060BF5A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		230C4F2715B9E99D0060BF5A = {
+			isa = PBXGroup;
+			children = (
+				230C4F3C15B9E99E0060BF5A /* My Compass */,
+				230C4F3515B9E99E0060BF5A /* Frameworks */,
+				230C4F3315B9E99E0060BF5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		230C4F3315B9E99E0060BF5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				230C4F3215B9E99E0060BF5A /* My Compass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		230C4F3515B9E99E0060BF5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				230C4F3615B9E99E0060BF5A /* UIKit.framework */,
+				230C4F3815B9E99E0060BF5A /* Foundation.framework */,
+				230C4F3A15B9E99E0060BF5A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		230C4F3C15B9E99E0060BF5A /* My Compass */ = {
+			isa = PBXGroup;
+			children = (
+				230C4F4515B9E99E0060BF5A /* MCAppDelegate.h */,
+				230C4F4615B9E99E0060BF5A /* MCAppDelegate.m */,
+				230C4F4815B9E99E0060BF5A /* MCViewController.h */,
+				230C4F4915B9E99E0060BF5A /* MCViewController.m */,
+				230C4F4B15B9E99E0060BF5A /* MCViewController_iPhone.xib */,
+				230C4F4E15B9E99E0060BF5A /* MCViewController_iPad.xib */,
+				230C4F3D15B9E99E0060BF5A /* Supporting Files */,
+			);
+			path = "My Compass";
+			sourceTree = "<group>";
+		};
+		230C4F3D15B9E99E0060BF5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				230C4F3E15B9E99E0060BF5A /* My Compass-Info.plist */,
+				230C4F3F15B9E99E0060BF5A /* InfoPlist.strings */,
+				230C4F4215B9E99E0060BF5A /* main.m */,
+				230C4F4415B9E99E0060BF5A /* My Compass-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		230C4F3115B9E99E0060BF5A /* My Compass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 230C4F5315B9E99E0060BF5A /* Build configuration list for PBXNativeTarget "My Compass" */;
+			buildPhases = (
+				230C4F2E15B9E99E0060BF5A /* Sources */,
+				230C4F2F15B9E99E0060BF5A /* Frameworks */,
+				230C4F3015B9E99E0060BF5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Compass";
+			productName = "My Compass";
+			productReference = 230C4F3215B9E99E0060BF5A /* My Compass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		230C4F2915B9E99D0060BF5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MC;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 230C4F2C15B9E99D0060BF5A /* Build configuration list for PBXProject "My Compass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 230C4F2715B9E99D0060BF5A;
+			productRefGroup = 230C4F3315B9E99E0060BF5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				230C4F3115B9E99E0060BF5A /* My Compass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		230C4F3015B9E99E0060BF5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230C4F4115B9E99E0060BF5A /* InfoPlist.strings in Resources */,
+				230C4F4D15B9E99E0060BF5A /* MCViewController_iPhone.xib in Resources */,
+				230C4F5015B9E99E0060BF5A /* MCViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		230C4F2E15B9E99E0060BF5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230C4F4315B9E99E0060BF5A /* main.m in Sources */,
+				230C4F4715B9E99E0060BF5A /* MCAppDelegate.m in Sources */,
+				230C4F4A15B9E99E0060BF5A /* MCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		230C4F3F15B9E99E0060BF5A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				230C4F4015B9E99E0060BF5A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		230C4F4B15B9E99E0060BF5A /* MCViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				230C4F4C15B9E99E0060BF5A /* en */,
+			);
+			name = MCViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		230C4F4E15B9E99E0060BF5A /* MCViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				230C4F4F15B9E99E0060BF5A /* en */,
+			);
+			name = MCViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		230C4F5115B9E99E0060BF5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		230C4F5215B9E99E0060BF5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		230C4F5415B9E99E0060BF5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My Compass/My Compass-Prefix.pch";
+				INFOPLIST_FILE = "My Compass/My Compass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		230C4F5515B9E99E0060BF5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My Compass/My Compass-Prefix.pch";
+				INFOPLIST_FILE = "My Compass/My Compass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		230C4F2C15B9E99D0060BF5A /* Build configuration list for PBXProject "My Compass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				230C4F5115B9E99E0060BF5A /* Debug */,
+				230C4F5215B9E99E0060BF5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		230C4F5315B9E99E0060BF5A /* Build configuration list for PBXNativeTarget "My Compass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				230C4F5415B9E99E0060BF5A /* Debug */,
+				230C4F5515B9E99E0060BF5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 230C4F2915B9E99D0060BF5A /* Project object */;
+}
